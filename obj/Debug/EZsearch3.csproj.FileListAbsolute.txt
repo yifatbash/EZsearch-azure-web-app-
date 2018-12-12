@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\EZsearch3\EZsearch3\bin\ApplicationInsights.config
+C:\Users\user\source\repos\EZsearch3\EZsearch3\bin\EZsearch3.dll.config
+C:\Users\user\source\repos\EZsearch3\EZsearch3\bin\EZsearch3.dll
+C:\Users\user\source\repos\EZsearch3\EZsearch3\bin\EZsearch3.pdb
+C:\Users\user\source\repos\EZsearch3\EZsearch3\obj\Debug\EZsearch3.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\EZsearch3\EZsearch3\obj\Debug\EZsearch3.dll
+C:\Users\user\source\repos\EZsearch3\EZsearch3\obj\Debug\EZsearch3.pdb

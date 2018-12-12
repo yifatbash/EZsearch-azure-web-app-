@@ -1,0 +1,153 @@
+﻿.ui-autocomplete {
+    cursor: pointer;
+    height: 120px;
+    overflow-y: scroll;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 18px !important;
+}
+
+.search-container {
+    background: #f1f1f1;
+    width: 100%;
+    margin: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+body {
+    background: #f9f9f9;
+    margin:0;
+}
+
+.ez-header {
+    color: #fff !important;
+    background-color: #000 !important;
+    opacity: 0.60;
+    text-align: center !important;
+    padding: 8px 16px !important;
+    font-size: 48px !important;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.dropdown {
+    width: 50%;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+.ez-input {
+    width: 75%;
+    height: 100%;
+    vertical-align: middle;
+    padding: 8px 16px;
+}
+
+.ez-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff !important;
+    background-color: #7d97a5;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    width:auto;
+}
+
+    .btn-search:hover {
+        color: #000 !important;
+        background-color: #ccc !important;
+    }
+
+.results {
+    margin: auto;
+    text-align: left;
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding: 16px 24px;
+}
+
+.result-form{
+    padding: 8px 0px 0px 0px;
+}
+
+.green-webpages-url
+{
+    color: #47d505
+}
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 255, 255, 255, .8 ) url('http://i.stack.imgur.com/FhHRx.gif') 50% 50% no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .modal {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+/*.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}*/
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}*/
+
